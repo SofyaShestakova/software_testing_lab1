@@ -1,4 +1,4 @@
-
+import static java.lang.System.console;
 
 public class QuickSort {
     private int[] numbers;
@@ -13,6 +13,7 @@ public class QuickSort {
         number = values.length;
         quickSort(0, number - 1);
         return values;
+
     }
 
     public  void quickSort(int low, int high) {

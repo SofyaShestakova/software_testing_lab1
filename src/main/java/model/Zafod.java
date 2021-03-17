@@ -3,6 +3,8 @@ package model;
 public class Zafod {
     private static boolean ifGoFast;
     private static boolean isNervous;
+    Lamp lamp = new Lamp();
+
 
     public static boolean goFast(int speed) {
         if (speed >= 50) {
